@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Creating a Next.js Application
 
-## Getting Started
+Learn the fundamentals of rendering in Next.js, covering Static Site Generation (SSG) and Server Side Rendering (SSR).
 
-First, run the development server:
+## Rendering in Next.js
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Pre-rendering:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Static Site Generation (SSG)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Static Site Generation involves building static contents during runtime on the server side. It doesn’t support API requests or dynamic data; instead, it is suitable for static elements like Navbar, Banner, Footer, etc.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Think of SSG as creating a magical painting of your castle in advance. You create the painting once, and everyone who comes to see it looks at the same picture.
 
-## Learn More
+In web development, SSG means generating all the pages of your website before anyone visits. So, when someone wants to see your castle, they get the pre-made painting of it. This is super fast because the painting is ready to go, and everyone sees the same thing.
 
-To learn more about Next.js, take a look at the following resources:
+## Server Side Rendering (SSR)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Server Side Rendering involves making API calls on user-specific requests, rendering the data on the server side, and then displaying the data on the website.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Imagine your castle is magical and changes its appearance based on who is looking at it. With SSR, when your friend comes to visit, the castle quickly changes its look based on your friend's preferences.
 
-## Deploy on Vercel
+In web development, SSR means the server (the magical castle) prepares the webpage based on who is visiting. So, when someone comes to see your website, the server quickly customizes the page before showing it to them. It's like a magical castle that changes its appearance for each visitor.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+In simple terms:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **SSG:** Showing everyone the same pre-made painting of your castle.
+  
+- **SSR:** Customizing the castle's appearance for each friend as they come to visit.
+
+
