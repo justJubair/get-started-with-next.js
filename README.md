@@ -1,6 +1,6 @@
 # Creating a Next.js Application
 
-Learn the fundamentals of rendering in Next.js, covering Static Site Generation (SSG) and Server Side Rendering (SSR).
+Create a Next.js application from scratch. Learn the fundamentals and start building.
 
 ## Rendering in Next.js
 
