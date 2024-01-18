@@ -57,3 +57,6 @@ Change server port, in case you want, **package.json file**
   },
 ```
 
+## Routing system in Next.js
+
+![Route one]("../../src/assets/route01.png")
