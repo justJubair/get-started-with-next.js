@@ -41,4 +41,19 @@ Would you like to use App Router? Yes
 Would you like to customize the default import alias ? No
 ```
 
+### Run the project on development server
+```
+npm run dev
+```
+
+Change server port, in case you want, **package.json file**
+
+```
+"scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+```
 
