@@ -59,4 +59,4 @@ Change server port, in case you want, **package.json file**
 
 ## Routing system in Next.js
 
-![Route one]("https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route01.png")
+![Route one](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route01.png)
