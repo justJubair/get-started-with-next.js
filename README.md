@@ -59,4 +59,7 @@ Change server port, in case you want, **package.json file**
 
 ## Routing system in Next.js
 
-![Route one](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route01.png)
+![Route img one](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route01.png)
+![Route img two](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route02.png)
+
+Create a folder in the app directory by the exact name you want to create static route. And a create **page.jsx** file in that folder.
