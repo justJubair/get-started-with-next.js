@@ -28,4 +28,17 @@ In simple terms:
   
 - **SSR:** Customizing the castle's appearance for each friend as they come to visit.
 
+## Create your Next.js app
+```
+npx create-next-app@latest
+
+What is your project name? my-nextjs-app
+Would you like to use TypeScript? No
+Would you like to use ESLint? Yes
+Would you  like to use TailwindCSS? Yes
+Would you like to use "src/" directory? Yes
+Would you like to use App Router? Yes
+Would you like to customize the default import alias ? No
+```
+
 
