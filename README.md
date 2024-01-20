@@ -105,5 +105,12 @@ So, in a Reddit-style Next.js website:
 
 *In summary, the server-side component does most of the work in getting the webpage ready for you, while the client-side component helps with making the webpage interactive and responsive when you play with it.*
 
+![Server component image 03](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent03.png)
+![Server component image 04](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent04.png)
+
+---
+By default the components in the app directory behaves like a server component, in order to use hooks and add interactivity to a server component you need to use the **use client** keyword at top of the component
+
+
 
 
