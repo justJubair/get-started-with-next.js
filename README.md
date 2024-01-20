@@ -26,7 +26,7 @@ In simple terms:
   
 - **SSR:** Customizing the castle's appearance for each friend as they come to visit.
 
-## Create your Next.js app
+## Create your first Next.js app
 ```
 npx create-next-app@latest
 
@@ -54,7 +54,7 @@ Change server port, in case you want, **package.json file**
     "lint": "next lint"
   },
 ```
-
+---
 ## Routing system in Next.js
 
 ![Route image one](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route01.png)
@@ -109,7 +109,7 @@ So, in a Reddit-style Next.js website:
 ![Server component image 04](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent04.png)
 
 ---
-By default the components in the app directory behaves like a server component, in order to use hooks and add interactivity to a server component you need to use the **use client** keyword at top of the component
+By default the components in the app directory behaves like a server component, in order to use hooks and add interactivity to a server component you need to use the **use client** keyword at top of the component.
 
 
 
