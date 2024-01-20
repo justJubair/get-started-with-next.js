@@ -58,8 +58,6 @@ Change server port, in case you want, **package.json file**
 ## Routing system in Next.js
 
 ![Route image one](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route01.png)
-
----
 ![Route image two](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route02.png)
 
 Create a folder in the app directory by the exact name you want to create static route. And a create **page.jsx** file in that folder.
@@ -67,8 +65,6 @@ Create a folder in the app directory by the exact name you want to create static
 ---
 ### Dynamic Route with id
 ![Route image Three](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route03.png)
-
----
 ![Route image Four](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route04.png)
 Create a folder in the products folder with 3rd bracket **[id]** and a file in that folder named **page.jsx**
 **Folder structure: src/app/products/[id]/page.jsx**
@@ -77,16 +73,12 @@ Display the dynamic route with *params* in the component
 ---
 ### Dynamic Route with query
 ![Route image Five](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route05.png)
-
----
 ![Route image six](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route06.png)
 You can get the query parameter by using the **searchParams** property.
 
 ---
 ### Nested Route:
 ![Route image Seven](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route07.png)
-
----
 ![Route image Eight](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route08.png)
 
 **Folder structure: src/app/news/blogs/page.jsx**
@@ -94,8 +86,6 @@ You can get the query parameter by using the **searchParams** property.
 ---
 ## Server Side vs Client Side Component
 ![Server component image 01](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent01.png)
-
----
 ![Server component image 02](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent02.png)
 
 ---
@@ -113,7 +103,7 @@ So, in a Reddit-style Next.js website:
 
 - The client-side component is like another friend who helps out by letting you interact with the Reddit page. For example, when you click on a post or upvote, your friend (the client) does some work to update the page without asking the server for a completely new one.
 
-**In summary, the server-side component does most of the work in getting the webpage ready for you, while the client-side component helps with making the webpage interactive and responsive when you play with it.**
+*In summary, the server-side component does most of the work in getting the webpage ready for you, while the client-side component helps with making the webpage interactive and responsive when you play with it.*
 
 
 
