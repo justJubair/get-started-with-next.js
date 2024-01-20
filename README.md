@@ -72,3 +72,4 @@ Folder structure: src/app/products/[id]/page.jsx
 Display the dynamic route with *params* in the component
 
 ## Dynamic Route with query
+![Route image Five](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route04.png)
