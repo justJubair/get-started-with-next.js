@@ -111,6 +111,9 @@ So, in a Reddit-style Next.js website:
 ---
 By default the components in the app directory behaves like a server component, in order to use hooks and add interactivity to a server component you need to use the **use client** keyword at top of the component.
 
+![Server component image 04](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent05.png)
+
+![Server component image 04](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent06.png)
 
 
 
