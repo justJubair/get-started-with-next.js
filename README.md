@@ -6,7 +6,7 @@ Create a Next.js application from scratch. Learn the fundamentals and start buil
 
 ### Pre-rendering:
 
-## What is Static Site Generation (SSG)
+### What is Static Site Generation (SSG)
 
 Static Site Generation involves building static contents during runtime on the server side. It doesn’t support API requests or dynamic data; instead, it is suitable for static elements like Navbar, Banner, Footer, etc.
 
@@ -14,7 +14,7 @@ Think of SSG as creating a magical painting of your castle in advance. You creat
 
 In web development, SSG means generating all the pages of your website before anyone visits. So, when someone wants to see your castle, they get the pre-made painting of it. This is super fast because the painting is ready to go, and everyone sees the same thing.
 
-## What is Server Side Rendering (SSR)
+### What is Server Side Rendering (SSR)
 
 Server Side Rendering involves making API calls on user-specific requests, rendering the data on the server side, and then displaying the data on the website.
 
@@ -64,20 +64,24 @@ Change server port, in case you want, **package.json file**
 
 Create a folder in the app directory by the exact name you want to create static route. And a create **page.jsx** file in that folder.
 
-## Dynamic Route with id
+### Dynamic Route with id
 ![Route image Three](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route03.png)
 ![Route image Four](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route04.png)
 Create a folder in the products folder with 3rd bracket **[id]** and a file in that folder named **page.jsx**
 **Folder structure: src/app/products/[id]/page.jsx**
 Display the dynamic route with *params* in the component
 
-## Dynamic Route with query
+### Dynamic Route with query
 ![Route image Five](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route05.png)
 ![Route image six](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route06.png)
 You can get the query parameter by using the **searchParams** property.
 
 
-## Nested Route:
+### Nested Route:
 ![Route image Seven](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route07.png)
 ![Route image Eight](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route08.png)
+
 **Folder structure: src/app/news/blogs/page.jsx**
+
+## Server side vs Client side component
+
