@@ -114,12 +114,14 @@ By default the components in the app directory behaves like a server component, 
 
 ---
 #### Now, if we use **use client** at top of the server component it converts into a client component.
-![Server component image 04](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent05.png)
+![Server component image 05](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent05.png)
 
-![Server component image 04](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent06.png)
+![Server component image 05](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent06.png)
 
 ---
 The example above is not the best practice to incorporate interactivity into components. If you turn a server component in the app directory into a client component it will throw errors in the production. The best practice is to create a folder in the src directory as named components and keep all of your client components in that folder.
-
+![Server component image 07](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent07.png)
+And then import the counter component in the in the *page.jsx* file
+![Server component image 08](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent08.png)
 
 
