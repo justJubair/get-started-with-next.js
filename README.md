@@ -127,10 +127,7 @@ The example above is not the best practice to incorporate interactivity into com
 
 <br>
 
-And then import the counter component in the in the ==page.jsx== file
-
-<br>
-
+And then import the counter component in the in the *page.jsx* file
 ![Server component image 08](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent08.png)
 
 
