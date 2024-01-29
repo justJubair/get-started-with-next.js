@@ -39,7 +39,7 @@ Would you like to use App Router? Yes
 Would you like to customize the default import alias ? No
 ```
 
-### Run the project on development server
+#### Run the project on development server
 ```
 npm run dev
 ```
@@ -63,7 +63,7 @@ Change server port, in case you want, **package.json file**
 Create a folder in the app directory by the exact name you want to create static route. And a create **page.jsx** file in that folder.
 
 ---
-### Dynamic Route with id
+#### Dynamic Route with id
 ![Route image Three](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route03.png)
 ![Route image Four](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route04.png)
 Create a folder in the products folder with 3rd bracket **[id]** and a file in that folder named **page.jsx**
@@ -71,13 +71,13 @@ Create a folder in the products folder with 3rd bracket **[id]** and a file in t
 Display the dynamic route with *params* in the component
 
 ---
-### Dynamic Route with query
+#### Dynamic Route with query
 ![Route image Five](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route05.png)
 ![Route image six](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route06.png)
 You can get the query parameter by using the **searchParams** property.
 
 ---
-### Nested Route:
+#### Nested Route
 ![Route image Seven](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route07.png)
 ![Route image Eight](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route08.png)
 
@@ -130,4 +130,7 @@ The example above is not the best practice to incorporate interactivity into com
 And then import the counter component in the in the *page.jsx* file
 ![Server component image 08](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent08.png)
 
+---
+## Built in routes in Next.js
+![Built in routes in next.js]()
 
