@@ -132,5 +132,5 @@ And then import the counter component in the in the *page.jsx* file
 
 ---
 ## Built in routes in Next.js
-![Built in routes in next.js]()
+![Built in routes in next.js](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/BuiltRoute01.PNG)
 
