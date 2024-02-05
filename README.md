@@ -67,7 +67,9 @@ Create a folder in the app directory by the exact name you want to create static
 ![Route image Three](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route03.png)
 ![Route image Four](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route04.png)
 Create a folder in the products folder with 3rd bracket **[id]** and a file in that folder named **page.jsx**
-**Folder structure: src/app/products/[id]/page.jsx**
+
+`Folder structure: src/app/products/[id]/page.jsx`
+
 Display the dynamic route with *params* in the component
 
 ---
@@ -81,7 +83,7 @@ You can get the query parameter by using the **searchParams** property.
 ![Route image Seven](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route07.png)
 ![Route image Eight](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route08.png)
 
-**Folder structure: src/app/news/blogs/page.jsx**
+`Folder structure: src/app/news/blogs/page.jsx`
 
 ---
 ## Server Side vs Client Side Component
