@@ -63,7 +63,7 @@ Change server port, in case you want, **package.json file**
 Create a folder in the app directory by the exact name you want to create static route. And a create **page.jsx** file in that folder.
 
 ---
-#### Dynamic Route with id
+### Dynamic Route with id
 ![Route image Three](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route03.png)
 ![Route image Four](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route04.png)
 Create a folder in the products folder with 3rd bracket **[id]** and a file in that folder named **page.jsx**
@@ -71,13 +71,13 @@ Create a folder in the products folder with 3rd bracket **[id]** and a file in t
 Display the dynamic route with *params* in the component
 
 ---
-#### Dynamic Route with query
+### Dynamic Route with query
 ![Route image Five](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route05.png)
 ![Route image six](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route06.png)
 You can get the query parameter by using the **searchParams** property.
 
 ---
-#### Nested Route
+### Nested Route
 ![Route image Seven](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route07.png)
 ![Route image Eight](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route08.png)
 
@@ -106,14 +106,14 @@ So, in a Reddit-style Next.js website:
 *In summary, the server-side component does most of the work in getting the webpage ready for you, while the client-side component helps with making the webpage interactive and responsive when you play with it.*
 
 ---
-#### Let's create a counter with *useState* hook in the server component. 
+### Let's create a counter with *useState* hook in the server component. 
 ![Server component image 03](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent03.png)
 ![Server component image 04](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent04.png)
 
 By default the components in the app directory behaves like a server component, in order to use hooks and add interactivity to a server component you need to use the **use client** keyword at top of the component.
 
 ---
-#### Now, if we use **use client** at top of the server component it converts into a client component.
+### Now, if we use **use client** at top of the server component it converts into a client component.
 ![Server component image 05](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent05.png)
 
 ![Server component image 05](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/serverComponent06.png)
@@ -134,3 +134,7 @@ And then import the counter component in the in the *page.jsx* file
 ## Built in routes in Next.js
 ![Built in routes in next.js](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/BuiltRoute01.PNG)
 
+Next.js provides a set of special files to create UI with specific behavior in nested routes.
+
+### Error page
+![Built in routes in next.js](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/BuiltRoute01.PNG)
