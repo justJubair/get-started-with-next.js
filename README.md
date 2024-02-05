@@ -57,15 +57,15 @@ Change server port, in case you want, **package.json file**
 ---
 ## Routing system in Next.js
 
-![Route image one](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route01.png)
-![Route image two](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route02.png)
+![Route image one](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route01.jpeg)
+![Route image two](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route02.jpeg)
 
 Create a folder in the app directory by the exact name you want to create static route. And a create **page.jsx** file in that folder.
 
 ---
 ### Dynamic Route with id
-![Route image Three](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route03.png)
-![Route image Four](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route04.png)
+![Route image Three](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route03.jpeg)
+![Route image Four](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route04.jpeg)
 Create a folder in the products folder with 3rd bracket **[id]** and a file in that folder named **page.jsx**
 
 `Folder structure: src/app/products/[id]/page.jsx`
@@ -74,14 +74,14 @@ Display the dynamic route with *params* in the component
 
 ---
 ### Dynamic Route with query
-![Route image Five](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route05.png)
-![Route image six](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route06.png)
+![Route image Five](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route05.jpeg)
+![Route image six](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route06.jpeg)
 You can get the query parameter by using the **searchParams** property.
 
 ---
 ### Nested Route
-![Route image Seven](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route07.png)
-![Route image Eight](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route08.png)
+![Route image Seven](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route07.jpeg)
+![Route image Eight](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/route08.jpeg)
 
 `Folder structure: src/app/news/blogs/page.jsx`
 
