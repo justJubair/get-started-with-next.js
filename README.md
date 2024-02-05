@@ -132,9 +132,16 @@ And then import the counter component in the in the *page.jsx* file
 
 ---
 ## Built in routes in Next.js
-![Built in routes in next.js](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/BuiltRoute01.PNG)
+![Built in routes in next.js image 01](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/BuiltRoute01.PNG)
 
 Next.js provides a set of special files to create UI with specific behavior in nested routes.
 
 ### Error page
-![Built in routes in next.js](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/BuiltRoute01.PNG)
+![Built in routes in next.js image 02](https://github.com/justJubair/get-started-with-next.js/blob/main/src/assets/BuiltRoute02.png)
+![Built in routes in next.js image 03](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/BuiltRoute03.png)
+
+**Error Page (Uh-Oh, Something Went Wrong!):**
+Create a file in the app directory with exact name *error.js* otherwish it won't work. The file extension can js, jsx or tsx. But what is this error.js page do?
+
+Imagine you're playing with your toys, and sometimes things might not work as expected. The "error page" is like a friendly robot that appears and says, "Uh-oh, something went wrong!" It helps you understand that there's a little hiccup in the playtime, but don't worry, the robot is there to guide you and figure out what happened.
+
