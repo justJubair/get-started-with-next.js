@@ -140,18 +140,33 @@ Next.js provides a set of special files to create UI with specific behavior in n
 ![Built in routes in next.js image 02](https://github.com/justJubair/get-started-with-next.js/blob/main/src/assets/BuiltRoute02.png)
 ![Built in routes in next.js image 03](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/BuiltRoute03.png)
 
-**Error Page (Uh-Oh, Something Went Wrong!):**
+**Error Page (Uh-Oh, Something Went Wrong!)**
 
 Create a file in the app directory with exact name *error.js* otherwish it won't work. The file extension can js, jsx or tsx. But what is this *error.js* page do?
 
 Imagine you're playing with your toys, and sometimes things might not work as expected. The "error page" is like a friendly robot that appears and says, "Uh-oh, something went wrong!" It helps you understand that there's a little hiccup in the playtime, but don't worry, the robot is there to guide you and figure out what happened.
 
 ---
+### Loading Page
 ![Built in routes in next.js image 04](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/BuiltRoute04.png)
 ![Built in routes in next.js image 05](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/BuiltRoute05.png)
-**Loading Page (Wait, We're Getting Ready!):**
+
+**Loading Page (Wait, We're Getting Ready!)**
 
 Create a file in the app directory with exact name *loading.js* otherwish it won't work. The file extension can js, jsx or tsx. But what is this *loading.js* page do?
 
 When you want to play a super cool game, it takes a little time to set everything up, right? The "loading page" is like a superhero costume-changing room. It pops up and says, "Hold on, we're getting everything ready for your awesome adventure!" It helps you be patient while the magical playground is preparing for the fun to start.
 
+---
+### Not Found Page
+![Built in routes in next.js image 06](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/BuiltRoute06.png)
+![Built in routes in next.js image 07](https://raw.githubusercontent.com/justJubair/get-started-with-next.js/main/src/assets/BuiltRoute07.png)
+
+**Not-Found Page (Oops, That's a Dead End!)**
+
+Create a file in the app directory with exact name *not-found.js* otherwish it won't work. The file extension can js, jsx or tsx. But what is this *not-found.js* page do?
+
+Ever took a wrong turn in the playground and ended up in a place with no games? The "not-found page" is like a signpost saying, "Oops, this way is a dead end, no games here!" It's a friendly reminder that the place you're looking for doesn't exist, so let's go back to the main playground and choose a different path.
+
+---
+In a nutshell, the "error page" is there when things don't go as planned, the "loading page" helps you wait for the fun to begin, and the "not-found page" kindly tells you when you've reached a dead end.
